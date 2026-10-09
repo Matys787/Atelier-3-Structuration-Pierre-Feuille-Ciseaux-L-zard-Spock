@@ -8,8 +8,7 @@ int scoreOrdi = 0;
 int manche = 1;
 int choixJoueur;
 int choixOrdi;
-printf("=== PIERRE, FEUILLE, CISEAUX, LEZARD, SPOCK (7 Manches / avantage 
-décisif de 2) ===\n");
+printf("=== PIERRE, FEUILLE, CISEAUX, LEZARD, SPOCK (7 Manches / avantage décisif de 2) ===\n");
 while (manche <= 7 
 && scoreJoueur-scoreOrdi < 2 
 && scoreOrdi-scoreJoueur < 2)
@@ -19,8 +18,7 @@ printf("--- Manche %d/7 ---\n", manche);
 bool incorrect;
 do
 {
-Spock) :");
-printf("Choix (1 = Pierre, 2 = Feuille, 3 = Ciseaux, 4 = Lézard, 5 = 
+printf("Choix (1 = Pierre, 2 = Feuille, 3 = Ciseaux, 4 = Lézard, 5 = Spock) :");
 scanf("%d", &choixJoueur);
 incorrect = choixJoueur < 1 || 5 < choixJoueur;
 if(incorrect) {
